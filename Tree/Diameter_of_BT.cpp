@@ -1,4 +1,4 @@
-//Striver approach
+//Striver approach 21% beats in Time Complexity and 91% in Space.
 int height(TreeNode<int> *root,int &dia)
 {
     if(root==NULL)return 0;
