@@ -40,7 +40,7 @@ Node* findIntersection(Node *firstHead, Node *secondHead)
     }
     return NULL;
 }
-// SECOND Approach
+// SECOND Approach  38% beats in Time and 20% beats in Space.
 Node* findIntersection(Node *firstHead, Node *secondHead)
 {
     //Write your code here
