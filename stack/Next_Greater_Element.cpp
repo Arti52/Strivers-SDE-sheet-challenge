@@ -1,4 +1,4 @@
-//O(N) time complexity and O(N) Space Complexity.
+//O(N) time complexity (beats 73%) and O(N) (beats 88%)Space Complexity.
 #include <bits/stdc++.h> 
 
 vector<int> nextGreater(vector<int> &arr, int n) {
