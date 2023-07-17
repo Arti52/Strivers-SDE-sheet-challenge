@@ -41,3 +41,13 @@ vector<vector<int>> mergeIntervals(vector<vector<int>> &intervals)
 
 	return ans;
 }
+// 2. Approach same Time and space Complexity.
+ sort(intervals.begin(),intervals.end());
+    vector<vector<int>> res;
+    for(auto e:intervals){
+        if(res.empty()||res.back()[1]<e[0]) res.push_back(e);
+        else{
+            res.back()[1]=max(res.back()[1],e[1]);
+        }
+    }
+    return res;
